@@ -1,0 +1,712 @@
+/* Montserrat, AlfaSlab One & Bebas Neue Fonts Family */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*=========
+ Global CSS
+ ==========*/
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2{
+	font-family: 'Alfa Slab One', cursive;
+}
+h3{
+	font-family: 'Bebas Neue', cursive;
+}
+.no-padding{
+	padding: 0px;
+}
+
+
+/*=============
+ Header Section
+ ==============*/
+header{
+	background: url(../img/banner.png) no-repeat center top;
+	background-size: cover;
+	padding: 55px 0;
+}
+.contact-info{
+	margin-top: 15px;
+	text-align: right;
+}
+.contact-info li{
+	list-style: none;
+	display: inline;
+	padding: 0 9px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.mobile-logo{
+	display: none;
+}
+
+.nav-item{
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 500;
+	font-size: 19px;
+	letter-spacing: 4px;
+	margin-left: 40px;
+	color: #3d2514;
+	text-align: right;
+	line-height: 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3d2514;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #bf2222;
+}
+
+/* Banner Section */
+
+.banner-info{
+	padding-top: 60px;
+}
+.banner-section{
+ 	padding-top: 130px;
+}
+.banner-section h4{
+ 	text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #3d2514;
+    border: 2px dashed #3d2514;
+    padding: 10px;
+    text-align: center;
+    width: 55%;
+}
+.banner-section h1{
+ 	text-transform: uppercase;
+ 	font-size: 98px;
+ 	color: #3d2514;
+ 	text-shadow: 3px 3px 3px #fff;
+ 	line-height: 105px;
+}
+.banner-section h3{
+ 	text-transform: uppercase;
+ 	font-family: 'Alfa Slab One', cursive;
+ 	font-size: 50px;
+ 	color: #3d2514;
+ 	text-shadow: 3px 3px 3px #fff;
+ 	line-height: 34px;
+}
+.img-banner{
+	position: relative;
+	max-width: 108%;
+	height: auto;
+	margin-top: -136px;
+	margin-left: -53px;
+	text-align: center;
+}
+.pricing{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	background: #bf2222;
+	left: 66px;
+	bottom: 32px;
+	padding: 9px;
+}
+.pricing-border{
+	height: 133px;
+	width: 133px;
+	border-radius: 50%;
+	border: 2px dashed #fff;
+	text-transform: uppercase;
+}
+.pricing-border h2{
+	font-size: 70px;
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 500;
+	padding-top: 10px;
+	margin: 0;
+}
+.pricing-border h2 span{
+	font-size: 32px;
+}
+.pricing-border p{
+	font-size: 22px;
+	color: #fff;
+	letter-spacing: 9px;
+	line-height: 0px;
+	padding-left: 5px;
+	font-weight: 600;
+}
+
+
+/*===============
+ featured Section
+ ================*/
+
+.feature-section{
+	padding-top: 70px;
+}
+.feature-img{
+	position: relative;
+}
+.feature-text{
+	position: absolute;
+	font-family: 'Bebas Neue', cursive;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+	padding: 20px;
+}
+.feature-text h5{
+	margin: 0px;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+	font-size: 24px;
+	line-height: 29px;
+}
+.feature-text h3{
+	line-height: 40px;
+	padding-top: 0px;
+	font-size: 45px;
+}
+.mobile-feature-img{
+	padding-right: 22px;
+}
+.last-feature-item{
+	margin-top: 47px;
+}
+
+/*===============
+ menu Section
+ ================*/
+.menu-section{
+ 	padding-top: 70px;
+}
+.menu-info{
+ 	text-align: center;
+}
+.menu-info h3{
+ 	background: #ffc045;
+ 	padding: 10px;
+ 	width: 18%;
+ 	margin: 0 auto;
+ 	color: #3d2514;
+ 	font-size: 22px;
+}
+.menu-info h2{
+	color: #3d2514;
+	text-transform: uppercase;
+	padding: 25px;
+	font-size: 55px;
+	margin: 0px;
+}
+.menu-info p{
+	color: #3d2514;
+	font-size: 19px;
+	line-height: 25px;
+}
+.menu-content{
+	text-align: center;
+	padding: 50px 14px;
+}
+.menu-content button{
+	border: none;
+	text-transform: uppercase;
+	font-family: 'Alfa Slab One', cursive;
+	color: #fff;
+	background: #bf2222;
+	padding: 15px 28px;
+	font-size: 18px;
+}
+.menu-content button:hover{
+	background: #ffc045;
+	color: #3d2514;
+	cursor: pointer;
+}
+
+
+/*===============
+ Event Section
+ ================*/
+ .event-area{
+ 	box-shadow: 0px 0px 15px #ded0d0;
+ 	padding: 30px;
+ }
+.event-section{
+	padding: 75px 0;
+}
+.event-section h4{
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 30px;
+	color: #3d2514;
+	padding-top: 30px;
+	letter-spacing: 2px;
+}
+.event-section h2{
+	text-transform: uppercase;
+	font-size: 42px;
+	color: #3d2514;
+	padding-bottom: 25px;
+}
+.event-section p{
+	font-size: 20px;
+	padding-right: 50px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffc045;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 13px;
+    height: 13px;
+    margin: 5px 4px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: -30px;
+    text-align: left;
+    position: relative;
+    z-index: 999;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    outline: none;
+}
+
+ /*===============
+ Reservation Section
+ ================*/
+.reservation-section{
+	background: url(../img/reservation-img.png) no-repeat center;
+	background-size: cover;
+	padding: 150px 0;
+}
+.reservation-section h4{
+	text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #3d2514;
+    padding-top: 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.reservation-section h2{
+	text-transform: uppercase;
+    font-size: 42px;
+    color: #3d2514;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.form-group{
+	margin: 0 0 25px;
+}
+.form-control{
+	border: 2px solid #bebebe;
+	padding: 10px;
+	font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.form-control:focus{
+	box-shadow: none;
+	border: 2px solid #ffc045;
+}
+.btn-reservation{
+	background: #bf2222;
+	color: #fff;
+	border: none;
+	width: 100%;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 26px;
+	letter-spacing: 1px;
+	padding: 12px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+ /*===============
+ Footer Section
+ ================*/
+footer{
+	background: url(../img/footer-img.png) no-repeat center top;
+	background-size: cover;
+	padding: 75px 0 35px;
+}
+footer img{
+	width: 275px;
+	height: auto;
+}
+footer p{
+	color: #fff;
+	padding: 25px 25px 25px 0;
+}
+.widget h3{
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	padding: 20px 0;
+}
+.widget ul{
+	padding: 0;
+}
+.widget ul li{
+	list-style: none;
+}
+.widget-link ul li a{
+	color: #eee;
+	text-decoration: none;
+	line-height: 30px;
+	transition: 0.3s ease-in-out;
+}
+.widget-link ul li a:hover{
+	color: #ffc045;
+	padding-left: 5px;
+}
+.media ul li{
+	list-style: none;
+	display: inline;
+	margin: 0 5px;
+}
+.media ul li a .fa{
+	color: #fff;
+	font-size: 22px;
+	width: 40px;
+	height: 40px;
+	background: #ffc045;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	transition: 0.3s ease-in-out;
+}
+.media ul li a .fa:hover{
+	background: #bf2222;
+	transform: scale(1.3);
+}
+
+
+/*===== Media Query For Large Device =====*/
+@media only screen and (max-width: 1199px){
+	.nav-item{
+		z-index: 1;
+	}
+	.banner-section {
+	    padding-top: 80px;
+	}
+	.owl-theme .owl-nav.disabled+.owl-dots {
+    	margin-top: -18px;
+	}
+}
+
+/*===== Media Query For Medium Device =====*/
+@media only screen and (max-width: 991px){
+	header{
+		padding: 20px;
+	}
+	.desktop-logo{
+		display: none;
+	}
+	.mobile-logo{
+		display: initial;
+	}
+	.contact-info {
+		width: 200%;
+	    text-align: center;
+	}
+	.banner-info {
+	    padding-top: 0px;
+	}
+	.banner-section h1 {
+	    font-size: 55px;
+	    line-height: 60px;
+	}
+	.banner-section h3 {
+	    font-size: 30px;
+	    line-height: 15px;
+	}
+	.pricing {
+	    height: 100px;
+	    width: 100px;
+	    left: 15px;
+    	bottom: 10px;
+	    padding: 8px;
+	}
+	.pricing-border {
+	    height: 85px;
+	    width: 85px;
+	}
+	.pricing-border h2 {
+    	font-size: 38px;
+    }
+    .pricing-border h2 span {
+	    font-size: 25px;
+	}
+	.pricing-border p {
+	    font-size: 16px;
+	    letter-spacing: 4px;
+	}
+	.feature-section,
+	.menu-section,
+	.event-section {
+	    padding: 50px 0 0 0;
+	}
+	.feature-img {
+	    margin-left: -6px;
+	}
+	.feature-text {
+	    padding: 15px;
+	}
+	.feature-text h5 {
+	    font-size: 20px;
+	    line-height: 16px;
+	}
+	.feature-text h3 {
+	    line-height: 30px;
+	    font-size: 30px;
+	    padding: 5px 100px 0 0;
+	}
+	.mobile-feature-img {
+	    padding-right: 0px;
+	}
+	.last-feature-item {
+	    margin-top: 19px;
+	}
+	.menu-info h3 {
+	    width: 30%;
+	}
+	.event-section p {
+	    font-size: 16px;
+	    padding-right: 0px;
+	}
+	.event-section h2 {
+	    font-size: 35px;
+	    padding-bottom: 5px;
+	}
+	.event-section img {
+		margin-top: 100px;
+	}
+	.reservation-section {
+	    padding: 0px 0;
+	}
+	.btn-reservation {
+	    font-size: 20px;
+	    padding: 16px 12px;
+	}
+	footer img {
+	    width: 180px;
+	}
+	.media ul li {
+	    margin: 0 2px;
+	}
+	.media ul li a .fa {
+	    width: 35px;
+	    height: 35px;
+	    line-height: 35px;
+	}
+	.copyright-text {
+	    padding: 0;
+	    text-align: center;
+	}
+}
+
+/*===== Media Query For Mobile =====*/
+@media only screen and (max-width: 767px){
+	.contact-info {
+	    width: initial;
+	}
+	.banner-section,
+	.feature-section,
+	.menu-section,
+	.event-section {
+	    padding-top: 20px;
+	}
+	.banner-section h4 {
+		width: 70%;
+		margin: 0 auto;
+	}
+	.banner-info {
+	    padding-top: 0px;
+	    text-align: center;
+	}
+	.banner-section h1 {
+    	padding-top: 20px;
+    }
+    .img-banner {
+	    margin-top: -5px;
+	}
+	.pricing {
+	    left: 68px;
+	    bottom: 48px;
+	}
+	.menu-info h3 {
+	    width: 35%;
+	}
+	.menu-info h2 {
+	    font-size: 46px;
+	}
+	.middle-feature-item{
+		margin-top: 19px;
+	}
+	.event-section {
+	    text-align: center;
+	}
+	.event-section img {
+	    margin-top: 0;
+	}
+}
+
+/*===== Media Query For Mobile =====*/
+@media only screen and (max-width: 575px){
+	
+	.desktop-logo{
+		display: none;
+	}
+	.mobile-logo{
+		display: initial;
+		width: 65%;
+	}
+	.contact-info{
+		text-align: center;
+		padding: 0px;
+		font-size: 11px;
+		margin: 0;
+	}
+	.contact-img{
+		height: 25px;
+		width: 29px;
+	}
+	.navbar{
+		padding-top: 20px;
+	}
+	.banner-section {
+    	padding-top: 0px;
+    	text-align: center;
+	}
+	.banner-section h4{
+		width: 100%;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	.banner-section h1{
+		font-size: 55px;
+	}
+	.banner-section h3{
+		font-size: 35px;
+		line-height: 5px;
+	}
+	.img-banner{
+		width: 300px;
+		margin: 0 auto;
+	}
+	.pricing {
+	    height: 90px;
+	    width: 90px;
+	    left: 8px;
+	    bottom: -10px;
+	    padding: 5px;
+	}
+	.pricing-border {
+	    height: 80px;
+	    width: 80px;
+	}
+	.pricing-border h2 {
+    	font-size: 38px;
+    }
+    .pricing-border h2 span {
+	    font-size: 25px;
+	}
+	.pricing-border p {
+	    font-size: 16px;
+	    letter-spacing: 4px;
+	}
+    .feature-section {
+	    padding-top: 50px;
+	}
+	.feature-img {
+	    margin-left: 0;
+	}
+    .mobile-feature-img{
+    	max-width: 100%;
+    	padding: 0;
+    }
+    .feature-text {
+	    padding: 10px;
+	}
+    .middle-feature-item{
+    	margin-top: 15px;
+    }
+    .last-feature-item{
+    	margin-top: 15px;
+	}
+	.feature-text h5 {
+	    font-size: 15px;
+	}
+	.feature-text h3 {
+	    line-height: 25px;
+	    font-size: 25px;
+	}
+	.menu-section{
+		width: 100%;
+		padding-top: 50px;
+	}
+	.menu-content{
+		padding: 35px 10px;
+	}
+	.menu-info {
+    	padding-top: 0px;
+    	text-align: center;
+	}
+	.menu-info h3{
+		width: 60%;
+		margin: 0 auto;
+		font-size: 20px;
+	}
+	.menu-info h2{
+		font-size: 25px;
+	}
+	.menu-info p {
+	    font-size: 16px;
+	}
+	.event-area {
+	    padding: 35px;
+	}
+	.event-section {
+	    padding: 0px 0;
+	}
+	.event-section h2 {
+	    font-size: 25px;
+	    padding-bottom: 0px;
+	}
+	.event-section h4 {
+	    font-size: 22px;
+	    padding-top: 5px;
+	    letter-spacing: 1px;
+	}
+	.event-section p {
+	    font-size: 17px;
+	    padding-right: 0;
+	}
+	.owl-theme .owl-nav.disabled+.owl-dots {
+	    margin-top: 10px;
+	    text-align: center;
+	}
+	.reservation-section {
+	    padding: 50px 0;
+	}
+	.reservation-section h4{
+	    font-size: 22px;
+	    padding-top: 5px;
+	    letter-spacing: 1px;
+	}
+	.reservation-section h2 {
+	    font-size: 25px;
+	}
+	.reservation-section p {
+	    font-size: 17px;
+	    padding-right: 0;
+	}
+	footer p {
+	    padding: 25px 0;
+	}
+}
